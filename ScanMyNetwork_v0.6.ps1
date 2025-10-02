@@ -12,6 +12,9 @@
 # Author : Michael DALLA RIVA, with the help of some AI
 # Release date : 03-Oct-2025
 # GitHub repository : https://github.com/michaeldallariva/PSNetworkScanner
+#
+# !!! DO NOT USE ON CORPORATE NETWORK UNLESS YOU ARE AUTHORISED TO DO SO !!!
+#
 
 #Requires -Version 7.0
 
@@ -39104,3 +39107,4 @@ Write-ColoredOutput "High-performance network scan completed!" "Green"
 Write-ColoredOutput "High-performance network scan completed!" "Green"
 # Auto-open the HTML report
 Open-HtmlReport -FilePath $HtmlFile
+
